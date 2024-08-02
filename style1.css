@@ -1,0 +1,386 @@
+/*partie generale de la page*/
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/*style de l'entete*/
+
+header{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-top: 2%;
+   padding-bottom: 3%;
+   
+}
+
+
+.nabar{
+    display: flex;
+    margin-top: 0%;
+    margin-left: 14%;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+
+.logo{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size:150%;
+}
+
+
+header nav a{
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+
+.div3{
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 10%;
+}
+
+
+.sep{
+    color: rgb(0, 0, 0);
+    font-size: 80%;
+}
+
+.class{
+    color: rgb(0, 0, 0);
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*style du contenu*/
+
+.image{
+    width: 360px;
+    background-color: blueviolet;
+    clip-path: circle();
+}
+
+section{
+    display: flex;
+    padding: 2%;
+    margin: 2%;
+}
+
+
+section img{
+    width: 400px;
+    height: 400px;
+    filter: grayscale(100%);
+}
+
+.contenaire{
+    padding-left: 3%;
+    padding-right: 23%;
+    padding-top: 0%;
+    padding-bottom: 2%;
+    
+}
+
+.div2{
+    padding-left: 7%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+
+}
+
+
+section ul{
+    display: flex;
+    justify-content:space-between ;
+    padding-top: 10%;
+}
+
+
+
+.btn1{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    padding: 8%;
+    font-size: 120%;
+    border: solid 1px;
+    border-radius: 50%;
+    
+}
+
+.btn2{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E13B25;
+    color: black;
+    text-decoration: none;
+    padding: 6%;
+    font-size: 120%;
+    border: solid 1px;
+    border-radius: 50%;
+    
+}
+
+.btn3{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(60, 214, 241, 0.87);
+    color: black;
+    text-decoration: none;
+    padding: 5%;
+    font-size: 120%;
+    border: solid 1px;
+    border-radius: 50%;
+    margin-left: 0%;
+
+    
+}
+
+.click{
+    text-decoration: none;
+    color: black;
+    font-size: 60%;
+}
+
+
+section h1{
+    font-size:250%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+    padding: 0%;
+}
+
+section p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 95%;
+    line-height: 160%;
+}
+
+section h3{
+    line-height: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160%;
+}
+
+
+
+/*style du pied*/
+
+
+footer div{
+    display: flex;
+    justify-content: space-between;   
+    margin-left: 7%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    text-decoration: none;
+    
+}
+
+
+.nava{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 180%;
+    font-size: 90%;
+    
+}
+
+.navb{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 180%;
+    font-size: 90%;
+    
+}
+
+.navc{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 180%;
+    font-size: 90%;
+    
+}
+
+
+.line{
+    width: 1100px;
+    height: 2px;
+    border: 0 none;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 200px;
+    background-color: gray;
+}
+
+
+.icons{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.insta{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+@media screen and (max-width: 1220px){
+
+
+    *{
+        font-size: 99%;
+    }
+
+
+
+    header{
+        font-size: 80%;
+        color: black;
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nabar{
+        display: flex;
+        margin-top: 13%;
+    }
+
+    .logo{
+        margin-top: 7%;
+       display: flex;
+       justify-content: center; 
+    }
+
+    .div3{
+        justify-content: center;
+        display: flex;
+        padding-right: 14%;
+       
+    }
+
+   /*style du contenu*/
+   
+   section{
+    display: block;
+    justify-content: center;
+    text-align: center;
+   }
+
+   .contenaire{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-size: 13px;
+    
+}
+
+.div2{
+    padding-left: 0%;
+    padding-top: 2%;
+    padding-bottom: 0%;
+
+}
+
+.image{
+    width: 14rem;
+    height: 14rem;
+    background-color: blueviolet;
+    clip-path: circle();
+}
+
+  
+
+
+    
+
+    
+
+    
+    
+
+    footer{
+        font-size: 80%;
+    }
+
+
+
+    .line{
+        width: 320px;
+        height: 2px;
+        border: 0 none;
+        margin-right: 0%;
+        margin-left: 0%;
+        margin-top: 200px;
+        background-color: gray;  
+    }
+
+    .ligne{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    footer div{
+        display: block;
+        text-align: center;
+        justify-content: space-between;   
+        margin-left: 7%;
+        margin-right: 7%;
+        margin-bottom: 5%;
+        margin-top: 10%;
+        text-decoration: none;
+        
+    }
+
+
+    footer div nav{
+        height: 6rem;
+    } 
+
+    .navc{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 180%;
+        font-size: 90%;
+        justify-content: center;
+        display: block;
+        
+    }
+
+    .icons{
+        padding-right: 23%;
+    }
+
+    
+
+
+
+}
