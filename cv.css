@@ -296,9 +296,10 @@ footer div{
         justify-content: center;
 
     }
+    
 
     footer div{
-        display: block;
+        display: flex;
         text-align: center;
         justify-content: space-between;   
         margin-left: 7%;
@@ -330,4 +331,12 @@ footer div{
 
 
 
+}
+
+
+@media screen and (max-width: 593px){
+
+    footer div{
+        display: block;
+    }
 }
